@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "826615675480",
+    "project_id": "villa-project-c73d6",
+    "storage_bucket": "villa-project-c73d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826615675480:android:88cf1dcdae396b7deee82d",
+        "android_client_info": {
+          "package_name": "com.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826615675480-bekqqcbhpdjem87gjnsro6b2sq1gg9p3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ui",
+            "certificate_hash": "21ef65aa330d81819a34c3b99a2e3ea5f6cfc798"
+          }
+        },
+        {
+          "client_id": "826615675480-j4e5cl68bud1vgogkq30ct4jjaphn1lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbCbuA-ShdyFIOcwKCzDcV3BeVENpJyqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826615675480-j4e5cl68bud1vgogkq30ct4jjaphn1lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

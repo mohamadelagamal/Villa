@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Villa Project</string>
+    <string name="user_name">user Name</string>
+    <string name="save">Save</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="language">Language</string>
+    <string name="change_address">Change Address</string>
+    <string name="refer_a_friend">Refer a Friend</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log Out</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="your_message">Your message</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="home">Home</string>
+    <string name="love">Love</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_redister">Email</string>
+    <string name="password_register">Password</string>
+    <string name="register">Register</string>
+    <string name="room_name">Room Name</string>
+    <string name="price">Price</string>
+    <string name="room">Room</string>
+    <string name="bath">Bath</string>
+    <string name="parking">Parking</string>
+    <string name="add">add</string>
+    <string name="description">Description</string>
+    <string name="types">Types</string>
+    <string name="house">House</string>
+    <string name="villa">Villa</string>
+    <string name="beach_house">beach House</string>
+    <string name="room_categories">Room</string>
+    <string name="bath_categories">Bath</string>
+    <string name="parking_categories">Parking</string>
+    <string name="room_love">Room</string>
+    <string name="bath_love">Bath</string>
+    <string name="parking_love">Parking</string>
+    <string name="upadte_success" translatable="false">update successfully</string>
+    <string name="please_intern" translatable="false">please check internet</string>
+    <string name="log_out_account" translatable="false">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="success_deleted" translatable="false">successfully deleted</string>
+    <string name="delte_account_fragment" translatable="false">Are you sure to delete account?</string>
+    <string name="yes" translatable="false">yes</string>
+</resources>

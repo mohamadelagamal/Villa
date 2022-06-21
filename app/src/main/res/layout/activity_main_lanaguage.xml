@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".account.language.MainActivityLanaguage">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D3D5D6"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:text="@string/select_language"
+            android:textSize="18dp"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/tvEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:padding="24dp"
+            android:text="@string/english"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/second" />
+
+        <Button
+            android:id="@+id/tvArabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="?attr/selectableItemBackground"
+            android:padding="24dp"
+            android:text="@string/arabic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/second" />
+
+    </LinearLayout>
+</layout>

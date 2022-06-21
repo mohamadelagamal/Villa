@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    <variable
+        name="vmLogin"
+        type="com.ui.account.login.LoginViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#92C4ED">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/homeaccess"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/guideline" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".35" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/guideline"
+
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
+                android:id="@+id/textEmail"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/email"
+                    app:error="@{vmLogin.emailError}"
+                    android:text="@={vmLogin.email}"
+                    android:drawableLeft="@drawable/email_ico"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="25dp"
+                    android:background="@color/transparent"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
+                android:id="@+id/textPassword"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="25dp"
+                    android:hint="@string/password"
+                    error="@{vmLogin.passwordError}"
+                    android:text="@={vmLogin.password}"
+                    android:drawableStart="@drawable/lock_icon"
+                    android:drawablePadding="10dp"
+                    android:background="@color/transparent"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:onClick="@{()->vmLogin.openMainActivity()}"
+                android:text="@string/login"
+                app:elevation="20sp"
+                android:textAllCaps="false"
+                android:background="@drawable/login_shap"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="40dp" />
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="20sp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:onClick="@{()->vmLogin.openRegisterActivity()}"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:background="@drawable/login_shap"
+                android:layout_margin="40dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

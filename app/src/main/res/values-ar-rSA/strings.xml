@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save">حفظ</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="language">اللغة</string>
+    <string name="change_address">تبديل الحساب</string>
+    <string name="refer_a_friend">أوص أحد الأصدقاء</string>
+    <string name="help">مساعدة</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="arabic">اللعربية</string>
+    <string name="english">الانجليزية</string>
+    <string name="select_language" >اختيار اللغة</string>
+
+    <string name="your_message">رسالتك</string>
+    <string name="email" translatable="false">البريد الإلكتروني</string>
+    <string name="password" translatable="false">كلمة المرور</string>
+    <string name="login" translatable="false">تسجيل الدخول</string>
+    <string name="sign_up" translatable="false">أفتح حساب الأن</string>
+    <string name="home" translatable="false">بيت</string>
+    <string name="love" translatable="false">المفضلة</string>
+    <string name="account" translatable="false">الحساب</string>
+    <string name="logout" translatable="false">تسجيل خروج</string>
+    <string name="full_name" translatable="false">الاسم الكامل</string>
+    <string name="email_redister" translatable="false">البريد الإلكتروني</string>
+    <string name="password_register" translatable="false">كلمة المرور</string>
+    <string name="register" translatable="false">تسجيل الدخول</string>
+    <string name="room_name" translatable="false">اسم الغرفة</string>
+    <string name="price" translatable="false">سعر</string>
+    <string name="room" translatable="false">غرفة</string>
+    <string name="bath" translatable="false">حمام</string>
+    <string name="parking" translatable="false">موقف سيارات</string>
+    <string name="add" translatable="false">يضيف</string>
+    <string name="description" translatable="false">وصف</string>
+    <string name="types" translatable="false">أنواع</string>
+    <string name="house" translatable="false">منزل</string>
+    <string name="villa" translatable="false">فيلا</string>
+    <string name="beach_house" translatable="false">شاليهات</string>
+    <string name="room_categories" translatable="false">غرفة</string>
+    <string name="bath_categories" translatable="false">حمام</string>
+    <string name="parking_categories" translatable="false">موقف سيارات</string>
+    <string name="room_love" translatable="false">غرفة</string>
+    <string name="bath_love" translatable="false">حمام</string>
+    <string name="success_deleted" translatable="false">تم الحذف بنجاح</string>
+    <string name="upadte_success" translatable="false">اللعملية نجحت!!</string>
+    <string name="delte_account_fragment" translatable="false">هل أنت متأكد من حذف الحساب؟</string>
+    <string name="yes" translatable="false">نعم</string>
+    <string name="please_intern" translatable="false">يرجى التحقق من الإنترنت</string>
+    <string name="parking_love" translatable="false">موقف سيارات</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/home.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/icon_account.xml" value="0.1985" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/icon_language.xml" value="0.1985" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.187" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/after_liked.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/background_recived_message.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/shap_message_strok.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/shap_send_message.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/account_background.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/bakgroung_love.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/chate_radies.xml" value="0.178" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.187" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/login_shap.xml" value="0.207" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/selector_love.xml" value="0.187" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/selector_wishlist.xml" value="0.174" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/shap_room.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_beach_house.xml" value="0.10104166666666667" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat_beach.xml" value="0.10104166666666667" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat_villa.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_gallery.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_home_details.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_login.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_main_lanaguage.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_register.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_room.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_setting.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_setting_language.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_splash.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_villa.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/fragment_account_activity.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/fragment_favorite.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_category.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_favorite.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_house.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_image_message.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_love.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_message_recieved.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_message_send.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_recycleview.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/item_spinner_category.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/menu/menu_item_navigation.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/menu/user.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
