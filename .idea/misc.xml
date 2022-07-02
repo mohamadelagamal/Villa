@@ -6,6 +6,7 @@
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/home.xml" value="0.152" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/icon_account.xml" value="0.1985" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/icon_language.xml" value="0.1985" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-anydpi/remove_icon.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.187" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/after_liked.xml" value="0.174" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable-xhdpi/background_recived_message.xml" value="0.174" />
@@ -20,12 +21,13 @@
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/selector_wishlist.xml" value="0.174" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/drawable/shap_room.xml" value="0.152" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_beach_house.xml" value="0.10104166666666667" />
-        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat_beach.xml" value="0.10104166666666667" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_chat_villa.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_gallery.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_home_details.xml" value="0.2421875" />
+        <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_icon_details.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_login.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudioProjects/VillaProject/app/src/main/res/layout/activity_main_lanaguage.xml" value="0.2421875" />

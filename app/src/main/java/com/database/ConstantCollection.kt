@@ -8,5 +8,6 @@ object ConstantCollection {
     const val COLLECTION_HOUSE="rooms"
     const val COLLECTION_FAVORITE="favorite"
     const val COLLECTION_LANGUAGE="language"
+    const val COLLECTION_ICON_DETAILS="icon_details"
 
 }

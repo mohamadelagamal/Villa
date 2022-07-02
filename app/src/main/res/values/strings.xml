@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Villa Project</string>
-    <string name="user_name">user Name</string>
+    <string name="app_name" translatable="false">Villa Project</string>
+    <string name="user_name" translatable="false">user Name</string>
     <string name="save">Save</string>
     <string name="delete_account">Delete Account</string>
     <string name="language">Language</string>
@@ -43,7 +43,7 @@
     <string name="parking_love">Parking</string>
     <string name="upadte_success" translatable="false">update successfully</string>
     <string name="please_intern" translatable="false">please check internet</string>
-    <string name="log_out_account" translatable="false">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="log_out_account" translatable="false">Are you sure you are logged out?</string>
     <string name="success_deleted" translatable="false">successfully deleted</string>
     <string name="delte_account_fragment" translatable="false">Are you sure to delete account?</string>
     <string name="yes" translatable="false">yes</string>

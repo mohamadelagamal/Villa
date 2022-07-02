@@ -3,6 +3,7 @@ package com.ui.account
 import android.app.ProgressDialog
 import android.content.ContentValues.TAG
 import android.content.Intent
+import android.content.res.Configuration
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
@@ -31,8 +32,10 @@ import com.model.loadImage
 import com.prongbang.localizedapp.SettingActivity
 import com.squareup.picasso.Picasso
 import com.ui.R
+import com.ui.account.language.MainActivityLanaguage
 import com.ui.account.login.LoginActivity
 import com.ui.databinding.FragmentAccountBinding
+import org.intellij.lang.annotations.Language
 import java.util.*
 
 
@@ -52,6 +55,7 @@ class AccountActivity : Fragment(){
     lateinit var cardImageView : CardView
     lateinit var changeLanguage:TextView
     lateinit var imageUser:ImageView
+    //... language
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -85,10 +89,11 @@ class AccountActivity : Fragment(){
         emailUser = requireActivity().findViewById(R.id.userEmail)
         saveButton = requireActivity().findViewById(R.id.linearSave)
         deleteAccount = requireActivity().findViewById(R.id.deleteAccount)
+        // language button
+
         changeLanguage.setOnClickListener {
             startChangeLanguage()
             }
-
         val db = Firebase.firestore
         val firebaseUser = Firebase.auth.currentUser
         deleteAccount.setOnClickListener {
@@ -159,8 +164,28 @@ class AccountActivity : Fragment(){
     }
 
     private fun startChangeLanguage() {
-        //val intent = Intent(requireContext(), SettingActivity::class.java)
-      //  startActivity(intent)
+//        val intent = Intent(requireContext(), SettingActivity::class.java)
+//        startActivity(intent)
+        MaterialAlertDialogBuilder(requireContext())
+            .setMessage(getString(R.string.select_language)).setPositiveButton(getString(R.string.english)){ dialog, which->
+                val languageToLoad = "en" // your language
+                val locale = Locale(languageToLoad)
+                Locale.setDefault(locale)
+                val config = Configuration()
+                config.locale = locale
+                requireContext().resources.updateConfiguration(config,requireActivity().resources.displayMetrics)
+                getActivity()?.finish();
+                startActivity(getActivity()?.intent)
+            }.setNegativeButton(getString(R.string.arabic)){ dialog, which->
+                val languageToLoad = "ar" // your language
+                val locale = Locale(languageToLoad)
+                Locale.setDefault(locale)
+                val config = Configuration()
+                config.locale = locale
+                requireContext().resources.updateConfiguration(config,requireActivity().resources.displayMetrics)
+                getActivity()?.finish();
+                startActivity(getActivity()?.intent)
+            }.show()
     }
 
     private fun showImageUser() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ui" >
+    package="com.ui">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -11,7 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/program"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VillaProject" >
+        android:theme="@style/Theme.VillaProject">
+        <activity
+            android:name=".home.chat.icon.IconDetailsActivity"
+            android:exported="false" />
+        <activity android:name=".account.language.MainActivityLanaguage"
+            android:exported="true"/>
         <activity
             android:name="com.prongbang.localizedapp.SettingActivity"
             android:exported="false" />
@@ -32,7 +37,7 @@
             android:exported="false" />
         <activity
             android:name=".splash.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -42,7 +42,11 @@ class ChatViewModel : BaseViewModel<Navigator>() {
             // go to login activity
     }
     }
-fun openStorage(){
+        fun openStorage(){
     navigator?.openStorage()
 }
+
+    fun iconDetailsView(){
+    navigator?.iconDetails()
+    }
 }
